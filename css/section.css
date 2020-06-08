@@ -152,7 +152,9 @@
     padding-top: 15px;
 }
 .section-right .pro-01 .tab-content a,
-.section-right .pro-02 .pro-02-bottom  a{
+.section-right .pro-02 .pro-02-bottom a,
+.section-right .pro-03 .pro-03-bottom a,
+.section-right .pro-04 .pro-04-bottom a{
     text-decoration: none;
     color:#434343;
    
@@ -169,7 +171,9 @@ h5{
    
 }
 .section-right .pro-01 .tab-content button,
-.section-right .pro-02 .pro-02-bottom button{
+.section-right .pro-02 .pro-02-bottom button,
+.section-right .pro-03 .pro-03-bottom button,
+.section-right .pro-04 .pro-04-bottom button{
    background-color: white;
     border: 1px solid #83dc36;
     border-radius: 25px;
@@ -182,7 +186,9 @@ h5{
     outline: none;
 }
 .section-right .pro-01 .tab-content button:hover,
-.section-right .pro-02 .pro-02-bottom button:hover{
+.section-right .pro-02 .pro-02-bottom button:hover,
+.section-right .pro-03 .pro-03-bottom button:hover,
+.section-right .pro-04 .pro-04-bottom button:hover{
     background-color:#83dc36 ;
     border: 1px solid #83dc36;
     border-radius: 25px;
@@ -195,7 +201,9 @@ h5{
     outline: none;
 }
 
-.section-right .pro-02 .pro-02-top{
+.section-right .pro-02 .pro-02-top,
+.section-right .pro-03 .pro-03-top,
+.section-right .pro-04 .pro-04-top{
     height:75px;
     margin-top: 25px;
     padding-top: 25px;
@@ -205,7 +213,9 @@ h5{
     border:1px solid #e5e5e5;
     padding-left: 50px;
 }
-.section-right .pro-02 .pro-02-bottom{
+.section-right .pro-02 .pro-02-bottom,
+.section-right .pro-03 .pro-03-bottom,
+.section-right .pro-04 .pro-04-bottom{
     padding:25px;
     border:1px solid #e5e5e5;
     border-bottom: 2px solid #e5e5e5;
