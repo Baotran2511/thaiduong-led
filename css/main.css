@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+@font-face{
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-family: "Open Sans Bold";
+}
+@font-face{
+    src: url("../fonts/OpenSans-Italic.ttf");
+    font-family: "Open Sans Italic";
+}
+@font-face{
+    src: url("../fonts/OpenSans-LightItalic.ttf");
+    font-family: "Open Sans Light Italic";
+}
+@font-face{
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family: "Open Sans Regular";
+}
+@font-face{
+    src: url("../fonts/OpenSans-Semibold.ttf");
+    font-family: "Open Sans Semibold";
+}
+@font-face{
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+    font-family: "Open Sans ExtraBold";
+}
+.copy-right{
+    height:35px;
+    background-color: black;
+    font-family: "Open Sans Light Italic";
+    font-size: 13px;
+    color:white;
+    padding-top: 10px;
+}

@@ -1,0 +1,94 @@
+.header-top{
+    background-image: url("../img/header-top.png");
+    height: 40px;
+    padding-top: 12px;
+}
+.header-top-left{
+    color:white;
+    font-family: "Open Sans Regular";
+    font-size: 13px;
+}
+.fa-twitter:before {
+    content: "\f099";
+    color:#83dc36;
+    font-size: 18px;
+}
+.fa-wifi:before {
+    content: "\f1eb";
+    color:#83dc36;
+    font-size: 18px;
+}
+.fa-facebook-f:before {
+    content: "\f39e";
+    color:#83dc36;
+    font-size: 18px;
+}
+.fa-skype:before {
+    content: "\f17e";
+    color:#83dc36;
+    font-size: 18px;
+}
+.fa-youtube:before {
+    content: "\f167";
+    color:#83dc36;
+    font-size: 18px;
+}
+.fa-google:before {
+    content: "\f1a0";
+    color:#83dc36;
+    font-size: 18px;
+}
+.header-top  ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.header-top ul li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.header-bottom{
+    height:117px;
+    padding-top: 30px;
+}
+
+
+
+.header-bottom .search   input{
+    height: 50px;
+    width: 400px;
+    outline: none;
+    border: 2px solid #83dc36;
+    border-radius: 25px;
+    padding: 20px;
+    font-family: "Open Sans Regular";
+    font-size: 13px;
+   
+}
+.header-bottom .search input:focus,
+.header-bottom .search button:focus{
+    outline: none;
+}
+.header-bottom .search button{
+    height: 50px;
+    background-color:#83dc36 ;
+    border: 1px solid #83dc36;
+    border-radius: 25px;
+    width: 65px;
+  
+}
+.fa-phone-alt:before {
+    content: "\f879";
+    color:#83dc36;
+    margin-right: 10px;
+}
+.fa-envelope:before {
+    content: "\f0e0";
+    color:#83dc36;
+    margin-right: 10px;
+}
+.header-bottom .hotline-header{
+    font-family: "Open Sans Semibold";
+    font-size: 15px;
+    color:#5e5e5e
+}
