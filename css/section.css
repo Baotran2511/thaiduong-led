@@ -71,6 +71,7 @@
     margin-top: 30px;
     border: 1px solid #e2e2e2;
     border-bottom: 2px solid #e2e2e2;
+   
 }
 .section-bottom .section-left .best-pro .title-best-pro,
 .section-bottom .section-left .sale-pro .title-best-pro,
@@ -89,8 +90,8 @@
 .section-bottom .section-left .new .pros{
     border-bottom: 1px solid #e2e2e2;
     padding-top: 15px;
-    padding-bottom: 10px;
     padding-left: 10px;
+    padding-bottom: 20px;
 }
 .section-bottom .section-left .best-pro .pros .pro-sub,
 .section-bottom .section-left .sale-pro .pros .pro-sub,
@@ -185,6 +186,18 @@ h5{
     font-size: 14px;
     outline: none;
 }
+.section-right .pro-01 .tab-content .item:hover,
+.section-right .pro-02 .pro-02-bottom .item:hover,
+.section-right .pro-03 .pro-03-bottom .item:hover,
+.section-right .pro-04 .pro-04-bottom .item:hover{
+    width: 220px;
+    height:400px;
+    margin-top: -10px;
+    margin-right:-20px;
+    margin-left: -20px;
+    border: 1px solid #dddddd;
+	
+}
 .section-right .pro-01 .tab-content button:hover,
 .section-right .pro-02 .pro-02-bottom button:hover,
 .section-right .pro-03 .pro-03-bottom button:hover,
@@ -219,4 +232,19 @@ h5{
     padding:25px;
     border:1px solid #e5e5e5;
     border-bottom: 2px solid #e5e5e5;
+}
+.section-right .pro-03 .pro-03-top .nav-pills {
+   margin-bottom: 30px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #83dc36;
+    color:white;
+    font-family: "Open Sans Regular";
+    font-size: 13px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-family: "Open Sans Regular";
+    font-size: 13px;
 }
