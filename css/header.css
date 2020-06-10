@@ -52,14 +52,16 @@
     padding-top: 30px;
 }
 .header-bottom input:focus,
-.header-bottom input:hover,
-.header-bottom button:focus{
+.header-bottom input:hover{
     outline: none;
+    border: 2px solid #83dc36;
  
 }
-.header-bottom button:hover{
+.header-bottom button:hover,
+.header-bottom button:focus{
     background-color:#83dc36;
-    outline: none;
+    border: 2px solid #83dc36;
+    
 }
 .fa-phone-alt:before {
     content: "\f879";
