@@ -51,31 +51,15 @@
     height:117px;
     padding-top: 30px;
 }
-
-
-
-.header-bottom .search   input{
-    height: 50px;
-    width: 400px;
+.header-bottom input:focus,
+.header-bottom input:hover,
+.header-bottom button:focus{
     outline: none;
-    border: 2px solid #83dc36;
-    border-radius: 25px;
-    padding: 20px;
-    font-family: "Open Sans Regular";
-    font-size: 13px;
-   
+ 
 }
-.header-bottom .search input:focus,
-.header-bottom .search button:focus{
+.header-bottom button:hover{
+    background-color:#83dc36;
     outline: none;
-}
-.header-bottom .search button{
-    height: 50px;
-    background-color:#83dc36 ;
-    border: 1px solid #83dc36;
-    border-radius: 25px;
-    width: 65px;
-  
 }
 .fa-phone-alt:before {
     content: "\f879";
