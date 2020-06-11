@@ -187,10 +187,11 @@ h5{
 .section-right .pro-04 .pro-04-bottom .item:hover{
     width: 220px;
     height:400px;
-    margin-top: -10px;
+    margin-top: 0px;
     margin-right:-20px;
     margin-left: -20px;
     border: 1px solid #dddddd;
+    padding: 5px;
 }
 .section-right .pro-01 .tab-content button:hover,
 .section-right .pro-02 .pro-02-bottom button:hover,
@@ -242,4 +243,10 @@ a {
     text-decoration: none;
     font-family: "Open Sans Regular";
     font-size: 13px;
+}
+.section-right .pro-01 .tab-content img,
+.section-right .pro-02 .pro-02-bottom img,
+.section-right .pro-03 .pro-03-bottom img,
+.section-right .pro-04 .pro-04-bottom img{
+    border: 1px solid #dddddd;
 }
