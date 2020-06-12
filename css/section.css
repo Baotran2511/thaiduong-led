@@ -166,10 +166,10 @@ h5{
     font-size: 14px;
     color:#434343;
 }
-.section-right .pro-01 .tab-content button,
-.section-right .pro-02 .pro-02-bottom button,
-.section-right .pro-03 .pro-03-bottom button,
-.section-right .pro-04 .pro-04-bottom button{
+.section-right .pro-01 .tab-content .item button,
+.section-right .pro-02 .pro-02-bottom .item button,
+.section-right .pro-03 .pro-03-bottom .item button,
+.section-right .pro-04 .pro-04-bottom .item button{
    background-color: white;
     border: 1px solid #83dc36;
     border-radius: 25px;
@@ -193,10 +193,10 @@ h5{
     border: 1px solid #dddddd;
     padding: 5px;
 }
-.section-right .pro-01 .tab-content button:hover,
-.section-right .pro-02 .pro-02-bottom button:hover,
-.section-right .pro-03 .pro-03-bottom button:hover,
-.section-right .pro-04 .pro-04-bottom button:hover{
+.section-right .pro-01 .tab-content .item button:hover,
+.section-right .pro-02 .pro-02-bottom .item button:hover,
+.section-right .pro-03 .pro-03-bottom .item button:hover,
+.section-right .pro-04 .pro-04-bottom .item button:hover{
     background-color:#83dc36 ;
     border: 1px solid #83dc36;
     border-radius: 25px;
@@ -207,6 +207,11 @@ h5{
     font-family: "Open Sans Regular";
     font-size: 14px;
     outline: none;
+}
+.owl-theme .owl-nav{
+    top:-60px;
+    right:-20px;
+    position: absolute;
 }
 
 .section-right .pro-02 .pro-02-top,
