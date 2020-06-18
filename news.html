@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED - THÁI DƯƠNG </title>
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+         input[type=text]{
+            box-sizing: border-box;
+            border: 2px solid #83dc36;
+            border-radius: 25px;
+            height:50px;
+            padding: 20px;
+            font-family: "Open Sans Regular";
+            font-size: 13px;
+        }
+       button[type=submit]{
+            height: 50px;
+            background-color:#83dc36 ;
+            border: 2px solid #83dc36;
+            border-radius: 25px;
+            width: 100px;
+            color:black;
+        }
+    </style>
+
+</head>
+<body>
+    <script src="js/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:25,
+                dot:false,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:4
+                    }
+                }
+            })
+        });
+                
+        
+     </script>  
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                       <span class="header-top-left">
+                        Chào Mừng Bạn Đã Đến Website Của Chúng Tôi !
+                       </span> 
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fas fa-wifi"></i></li>
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-skype"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-google"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-bottom">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/logo.png">
+                    </div>
+                    <div class="col-md-6">
+                        <form action="" class="form">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Nhập Từ Khóa Tìm Kiếm">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="hotline-header">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>Hotline: 016. 5904. 1977</span>
+                            <br>
+                            <i class="fas fa-envelope"></i>
+                            <span>Email: ledthaiduong@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                            <i class="fas fa-bars"></i>
+                            <span>DANH MỤC SẢN PHẨM</span>
+                        </button>
+                            <ul class="dropdown-menu">
+                                  <li><a href="#">SẢN PHẨM ĐƯỢC ƯA CHUỘNG</a></li>
+                                  <li><a href="#">ĐÈN THẢ</a></li>
+                                  <li><a href="#">ĐÈN CHÙM</a></li>
+                                  <li><a href="#">ĐÈN ỐP TRẦN</a></li>
+                                  <li><a href="#">ĐÈN GẮN TƯỜNG</a></li>
+                                  <li><a href="#">ĐÈN RỌI GƯƠNG TẮM & PHA TRANH</a></li>
+                                  <li><a href="#">ĐÈN RỌI CHIẾU ĐIỂM</a></li>
+                                  <li><a href="#">ĐÈN TRANG TRÍ SHOP QUÂN ÁO</a></li>
+                            </ul>
+                    </div>
+                </div>
+                    <div class="col-md-9">
+                        <div class="menu-main">
+                            <ul>
+                                <li><a href="index.html">TRANG CHỦ</a></li>
+                                <li><a href="intro.html">GIỚI THIỆU</a></li>
+                                <li><a href="pro.html">SẢN PHẨM</a></li>
+                                <li><a href="">DỰ ÁN</a></li>
+                                <li><a href="">BẢO HÀNH & HẬU MÃI</a></li>
+                                <li><a href="news.html">TIN TỨC</a></li>
+                                <li><a href="contact.html">LIÊN HỆ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/banner.png"  style="width:100%;">
+              </div>
+              <div class="item">
+                <img src="img/banner.png"  style="width:100%;">
+              </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            </a>
+        </div>
+        
+        <div class="section-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="icon-section text-center">
+                            <img src="img/clock.png">
+                            <div class="title-icon">THỜI GIAN LÀM VIỆC</div>
+                            <span class="sub-titile-icon">8h sáng - đến 20h tối</span>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="icon-section text-center">
+                            <i class="fas fa-shipping-fast"></i>
+                            <div class="title-icon">GIAO HÀNG MIỄN PHÍ</div>
+                            <span class="sub-titile-icon">Với hóa đơn điện tử 1 triệu trở lên</span>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="icon-section text-center">
+                            <i class="fas fa-sync-alt"></i>
+                            <div class="title-icon">ĐỔI TRẢ MIỄN PHÍ</div>
+                            <span class="sub-titile-icon">Đổi trả trong vòng 3 ngày </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="icon-section text-center">
+                            <img src="img/user.png">
+                            <div class="title-icon">THỜI GIAN LÀM VIỆC</div>
+                            <span class="sub-titile-icon">8h sáng - đến 20h tối</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="container">
+            <div class="section-bottom">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="section-left">
+                            <div class="img-pro-new">
+                                <img src="img/hot.png">
+                                <div class="side-title">
+                                 <p> NHẬN ƯU ĐÃI <br> KHI MUA HÀNG ONLINE</p>  
+                                </div>
+                            </div>
+                            <div class="best-pro">
+                                <div class="title-best-pro">
+                                    <i class="fas fa-circle"></i>
+                                    SẢN PHẨM BÁN CHẠY
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="img/spbc-01.png">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <span class="pro-sub">Divaderme 9ml Black <br>
+                                            Extender </span> <br>  
+                                            <button>CHI TIẾT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="img/spbc-02.png">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <span class="pro-sub">VOV Castledew Colorshot <br>
+                                            Lips </span> <br>  
+                                            <button>CHI TIẾT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="img/spbc-03.png">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <span class="pro-sub">TRESemme 5542DU 2200 <br>
+                                            W Power Dryer </span> <br>  
+                                            <button>CHI TIẾT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="img/spbc-04.png">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <span class="pro-sub">Combu Coccoro<br>
+                                            Convertible Car Seat</span> <br>  
+                                            <button>CHI TIẾT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sale-pro">
+                                <div class="title-best-pro">
+                                    <i class="fas fa-circle"></i>
+                                    SẢN PHẨM GIẢM GIÁ
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="img/spgg-01.png">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <span class="pro-sub">Divaderme 9ml Black <br>
+                                            Extender </span> <br>  
+                                            <button>CHI TIẾT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="img/spgg-02.png">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <span class="pro-sub">VOV Castledew Colorshot <br>
+                                            Lips </span> <br>  
+                                            <button>CHI TIẾT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="img/spgg-03.png">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <span class="pro-sub">TRESemme 5542DU 2200 <br>
+                                            W Power Dryer </span> <br>  
+                                            <button>CHI TIẾT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="img/spgg-04.png">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <span class="pro-sub">Combu Coccoro<br>
+                                            Convertible Car Seat</span> <br>  
+                                            <button>CHI TIẾT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="new">
+                                <div class="title-best-pro">
+                                    <i class="fas fa-circle"></i>
+                                    TIN TỨC
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <img src="img/new-01.png">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <span class="pro-sub">3 Delicious Post-Holiday
+                                            Dextox Recipes, Courtesy 
+                                            of Personal Chef </span> 
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <img src="img/new-02.png">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <span class="pro-sub">All the Best Street Style 
+                                            Looks From London 
+                                            Fashion Weeks Fall 2016 </span> 
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <img src="img/new-03.png">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <span class="pro-sub">High-End Street Style
+                                            Shines at Haute Couture
+                                            Fashion Week. </span> 
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pros">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <img src="img/new-04.png">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <span class="pro-sub">Blogger Rumi Neely:
+                                            Where to Eat, Drink and
+                                            Shop in LA </span> 
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                       <div class="section-right intro">
+                           <h3>TIN TỨC </h3>
+                           <p> <b>Quang thông là gì?</b> <br>
+
+                            Quang thông (Luminous Xlux): Là đại lượng trắc quang cho biết công suất bức xạ của chùm ánh sáng phát ra từ một nguồn phát sáng điểm <br>
+                            
+                           <b>Đơn vị của quang thông là: </b> Lumen, kí hiệu lm <br>
+                            
+                            Trong việc chiếu sáng, người ta sử dụng đơn vị này để nói đến khả năng chiếu sáng của bóng đèn <br>
+                            
+                            <b>Hiệu suất ánh sáng là gì?</b> <br>
+                            
+                            <b>Hiệu suất ánh sáng (Luminous Efficacy):</b>  Là khả năng chuyển điện thành ánh sáng (Ví dụ: 80 lm/w). Tức là số lumen mà 1W có thể phát ra <br>
+                            
+                           <i>Ví dụ, 1 bóng đèn có hiệu suất ánh sáng là 80 lm/w, tức là mỗi w sẽ phát ra 80 lumen ánh sáng. Nhưng vậy, nếu bóng đèn có công suất là 10W sẽ tạo ra 10 * 80= 800 lumen ánh sáng khi phát sáng</i> </p>
+                            <img src="img/intro.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="menu-footer">
+                <ul>
+                    <li>TRANG CHỦ</li>
+                    <li>GIỚI THIỆU</li>
+                    <li>SẢN PHẨM</li>
+                    <li>DỰ ÁN</li>
+                    <li>BẢO HÀNH & HẬU MÃI</li>
+                    <li>TIN TỨC</li>
+                    <li>LIÊN HỆ</li>
+                </ul>
+            </div>
+           
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-sub">
+                        <h4>LED THÁI DƯƠNG</h4>
+                    <div class="title-footer">
+                        Địa chỉ: 183 Nguyễn Kim, Quận 10
+                        TP. Hồ Chí Minh
+                        <br>
+                        SĐT: 016. 5904. 1977
+                        <br>
+                        Email: ledthaiduong@gmail.com <br>
+                        Website: www.ledthaiduong.com
+                    </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-sub">
+                        <h4>CHÍNH SÁCH</h4>
+                    <div class="title-footer">
+                        <ul>
+                            <li>Chính Sách Mua Hàng</li>
+                            <li>Chính Sách Thanh Toán</li>
+                            <li>Chính Sách Đổi Trả</li>
+                            <li>Hướng Dẫn Mua Hàng</li>
+                        </ul>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-sub">
+                        <h4>FANPAGE</h4>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=300&height=195&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="250" height="195" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                   
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-sub">
+                        <h4>THÔNG TIN LIÊN HỆ</h4>
+                        <div class="title-footer">
+                            Đang Online: 10 <br>
+                            Số lượng đã online: 9999
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copy-right">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <span style="text-align: left;">Copyright 2016, LED THAI DUONG Allright Reserved.</span>
+                </div>
+                <div class="col-md-2">
+                     <span style="text-align: right;">Design by Thiết Kế Web Uy Tín</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
