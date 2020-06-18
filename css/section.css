@@ -4,7 +4,11 @@
 .fa-clock:before {
     content: "\f017";
     color:#89de40;
-    font-size: 50px;
+    font-size: 60px;
+}
+.section-top img{
+    width: 50px;
+
 }
 .section-top .icon-section{
     padding-top: 30px;
@@ -45,19 +49,24 @@
     background-image:url("../img/side-left.png");
     height:425px
 }
-.section-bottom .section-left .img-pro-new img{
-    text-align: right;
+.section-bottom .section-left  img{
+    position: absolute;
+    right:0;
 }
 .section-bottom .section-left .img-pro-new .side-title{
     background-color: black;
     opacity: 48%;
     height:70px;
-    margin-top: 240px;
     font-family: "Open Sans Semibold";
     font-size: 22px;
     text-align: center;
-    color:white
+    color:white;
+    position: absolute;
+    top:355px;
+    width: 262px;
+    padding-top: 5px;
 }
+
 .fa-circle:before {
     content: "\f111";
     color:#89de40;
@@ -152,15 +161,29 @@
 .section-right .pro-01 .tab-content a,
 .section-right .pro-02 .pro-02-bottom a,
 .section-right .pro-03 .pro-03-bottom a,
-.section-right .pro-04 .pro-04-bottom a{
+.section-right .pro-04 .pro-04-bottom a,
+.pro a{
     text-decoration: none;
     color:#434343;
+}
+.intro p{
+    line-height: 40px;
 }
 h5{
     font-family: "Open Sans Semibold";
     font-size: 14px;
     color: #6db636
 }
+.intro h3{
+    font-family: "Open Sans Semibold";
+    font-size: 30px;
+    color: #6db636;
+    text-align: center;
+}
+.intro img{
+    width: 100%;
+}
+
 .title-newppro{
     font-family: "Open Sans Regular";
     font-size: 14px;
@@ -169,7 +192,8 @@ h5{
 .section-right .pro-01 .tab-content .item button,
 .section-right .pro-02 .pro-02-bottom .item button,
 .section-right .pro-03 .pro-03-bottom .item button,
-.section-right .pro-04 .pro-04-bottom .item button{
+.section-right .pro-04 .pro-04-bottom .item button
+{
    background-color: white;
     border: 1px solid #83dc36;
     border-radius: 25px;
@@ -184,7 +208,8 @@ h5{
 .section-right .pro-01 .tab-content .item:hover,
 .section-right .pro-02 .pro-02-bottom .item:hover,
 .section-right .pro-03 .pro-03-bottom .item:hover,
-.section-right .pro-04 .pro-04-bottom .item:hover{
+.section-right .pro-04 .pro-04-bottom .item:hover
+{
     width: 220px;
     height:400px;
     margin-top: 0px;
@@ -193,10 +218,12 @@ h5{
     border: 1px solid #dddddd;
     padding: 5px;
 }
+
 .section-right .pro-01 .tab-content .item button:hover,
 .section-right .pro-02 .pro-02-bottom .item button:hover,
 .section-right .pro-03 .pro-03-bottom .item button:hover,
-.section-right .pro-04 .pro-04-bottom .item button:hover{
+.section-right .pro-04 .pro-04-bottom .item button:hover
+{
     background-color:#83dc36 ;
     border: 1px solid #83dc36;
     border-radius: 25px;
@@ -213,7 +240,19 @@ h5{
     right:-20px;
     position: absolute;
 }
+.pro-02-bottom .owl-theme .owl-nav{
+    top:-80px;
+    right:-5px;
+    position: absolute;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+    display: inline;
+}
 
+.pro-03-bottom .owl-carousel .owl-dots.disabled, .pro-03-bottom .owl-carousel .owl-nav.disabled,
+.pro-04-bottom .owl-carousel .owl-dots.disabled, .pro-04-bottom .owl-carousel .owl-nav.disabled{
+    display: none;
+}
 .section-right .pro-02 .pro-02-top,
 .section-right .pro-03 .pro-03-top,
 .section-right .pro-04 .pro-04-top{
@@ -254,4 +293,17 @@ a {
 .section-right .pro-03 .pro-03-bottom img,
 .section-right .pro-04 .pro-04-bottom img{
     border: 1px solid #dddddd;
+}
+.form-group input,
+.form-group textarea {
+    border: 1px solid #83dc36;
+}
+.contact  .btn-success{
+    color:white;
+    font-size: 11px;
+}
+.contact  .btn-success:hover{
+    background-color: white;
+    color:#83dc36;
+    border: 1px solid #83dc36
 }
