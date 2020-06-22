@@ -97,7 +97,7 @@
     border-bottom: 1px solid #e2e2e2;
     padding-top: 15px;
     padding-left: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .section-bottom .section-left .best-pro .pros .pro-sub,
 .section-bottom .section-left .sale-pro .pros .pro-sub,
@@ -307,3 +307,25 @@ a {
     color:#83dc36;
     border: 1px solid #83dc36
 }
+.pagination>.active>a,
+.pagination>.active>a:focus, 
+.pagination>.active>a:hover, 
+.pagination>.active>span, 
+.pagination>.active>span:focus, 
+.pagination>.active>span:hover {
+    background-color: #6db636;
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+ }
+ .pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #6db636;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+ }
